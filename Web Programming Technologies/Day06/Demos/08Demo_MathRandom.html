@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Annabelle</title>
+    <link rel="icon" href="annabelle.jpg" type="image/icon type">
+  </head>
+  <body style="background-color: black; display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <center>
+      <img src="annabelle.jpg" id="myImage" ; />
+    </center>
+    <script>
+      debugger;
+
+      window.setInterval(ChangeWidth, 200);
+
+      function ChangeWidth() {
+        var refTomyImage = document.getElementById("myImage");
+        var randomNo = Math.floor(Math.random() * 70);
+        refTomyImage.style.width = randomNo + "vw";
+        // refTomyImage.style.height = randomNo + "px";
+      }
+    </script>
+  </body>
+</html>

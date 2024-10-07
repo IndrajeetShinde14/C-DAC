@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <center>
+      <input style="padding: 5px; margin: 20px;" type="button" id="btn" value="Click Me" />
+      <br />
+      <div
+        id="myDiv"
+        style="height: 150px; width: 150px; background-color: rgba(255, 255, 0); padding: 10px;"
+      ></div>
+    </center>
+
+    <script>
+      $("#btn").mouseover(function () {
+        $("#myDiv").css({
+          "background-color": "red",
+          height: "300px",
+          width: "300px",
+        });
+      });
+
+      $("#myDiv").mouseout(function() {
+        $("#myDiv").css({
+          "background-color": "orange",
+          height : "300px",
+          width : "300px",
+        });
+      });
+      
+      $("#myDiv").mouseover(function(){
+        $("#myDiv").css({
+          "background-color": "grey",
+          height : "300px",
+          width : "300px",
+        });
+      });
+
+
+      // $("#btn").click(function () {
+      //   $("#myDiv")
+      //     .css("background-color", "red")
+      //     .css("height", "200px")
+      //     .css("width", "200px");
+      // });
+
+      // $("#btn").click(function () {
+      //   $("#myDiv").css("background-color", "red");
+      //   $("#myDiv").css("height", "200px");
+      //   $("#myDiv").css("width", "200px");
+      // });
+    </script>
+  </body>
+</html>

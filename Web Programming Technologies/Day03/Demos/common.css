@@ -1,0 +1,9 @@
+.A {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

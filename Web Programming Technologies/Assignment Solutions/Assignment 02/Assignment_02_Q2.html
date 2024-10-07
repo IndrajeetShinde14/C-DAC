@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8*8 Table</title>
+    <style>
+        table {
+            width: 800px;
+            height: 600px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <table>
+            <!-- Row 1 -->
+            <tr>
+                <td colspan="8" class="a" width="800px">A</td>
+            </tr>
+    
+            <!-- Row 2 -->
+            <tr>
+                <td colspan="4" rowspan="2" class="b" width="400px">B</td>
+                <td colspan="4" class="c" width="400px">C</td>
+            </tr>
+            
+            <!-- Row 3 -->
+            <tr>
+                <td colspan="2" class="d" width="200px">D</td>
+                <td colspan="2" class="e" width="200px">E</td>
+            </tr>
+            
+            <!-- Row 4 -->
+            <tr>
+                <td colspan="2" rowspan="3" class="f" width="200px">F</td>
+                <td colspan="6" class="g" width="600px">G</td>
+            </tr>
+
+            <!-- Row 5 -->
+            <tr>
+                <td colspan="2" rowspan="2" class="h" width="200px">H</td>
+                <td colspan="2" rowspan="2" class="i" width="200px">I</td>
+                <td class="j" colspan="2" width="200px">J</td>
+                
+            </tr>
+    
+            <!-- Row 6 -->
+            <tr>
+                <td class="k" colspan="2" width="200px">K</td>
+            </tr>
+
+            <!-- Row 7 -->
+            <tr>
+                <td colspan="7" rowspan="2" class="l" width="700px">L</td>
+                <td class="m" width="100px">M</td>
+            </tr>
+            <tr>
+                <td class="n" width="100px">N</td>
+            </tr>
+        </table>
+    </center>
+
+</body>
+</html>

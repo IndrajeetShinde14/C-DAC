@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Crash</title>
+    <style>
+        .start{
+            background-color: rgb(33, 226, 33);
+            border-radius: 18px;
+            font-size: 15px;
+            height: 30px;
+            border-style: none;
+        }
+        .stop{
+            background-color: red;
+            border-radius: 30px;
+            font-size: 15px;
+            height: 30px;
+            border-style: none;
+        }
+        .reload{
+            background-color: skyblue;
+            border-radius: 30px;
+            font-size: 15px;
+            height: 30px;
+            border-style: none;
+        }
+        #dropMessage{
+            position: absolute;
+            top: 300px;
+            left: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 100%; position: relative;">
+        
+        <div>
+            <h2 id="dropMessage"></h2>
+            <img src="car.webp" height="170px" id="myCar">
+        </div>
+        <div id="Road" style="border: 3px solid rgb(0, 0, 0); width: 900px; position: absolute; top: 170px;"></div>
+
+        <br>
+        <div style="position: absolute; top: 190px;">
+            <label for="xAxis"><b>X-Axis: </b></label>
+            <input type="number" name="xAxis" id="xAxis" value="0">
+            <br><br>
+            <label for="yAxis"><b>Y-Axis: </b></label>
+            <input type="number" name="yAxis" id="yAxis" value="0">
+            <br>
+            <!-- buttons -->
+            <br>
+            <input class="start" type="button" value="Start" onclick="StartCar()">
+            <input class="stop" type="button" value="Stop" onclick="stopCar()">
+            <input class="reload" type="button" value="Reload" onclick="location.reload()">
+        </div>
+    </div>
+
+
+    <script>
+        var intervalID;
+        var counter = 0;
+        var rotateCounter = 0;
+
+        function StartCar(){
+            var car = document.getElementById('myCar')
+            var carImg = document.querySelector('img')
+            var dropMessage = document.getElementById('dropMessage')
+            dropMessage.innerText = ""
+            carImg.src = "car.webp"
+            counter = 0
+            car.style.marginLeft = counter + "px"
+            car.style.marginTop = counter + "px"
+
+            intervalID = window.setInterval(pushCar, 5)
+        }
+
+        function pushCar() {
+            counter = counter + 1
+            var car = document.getElementById('myCar')
+            car.style.marginLeft = counter + "px"
+            var xAxis = document.getElementById('xAxis')
+            xAxis.value = counter
+
+            if (car.style.marginLeft == 800 + "px") {
+                window.clearInterval(intervalID)
+                counter = 0
+                intervalID = window.setInterval(dropCar, 10)
+            }
+        }
+
+        function dropCar() {
+            counter = counter + 2
+            var car = document.getElementById('myCar')
+            var carImg = document.querySelector('img')
+            car.style.marginTop = counter + "px"
+            var yAxis = document.getElementById('yAxis')
+            yAxis.value = counter
+
+            carImg.style.rotate = rotateCounter + "deg"
+            rotateCounter = rotateCounter + 2
+
+            var roadHeight = document.getElementById('Road').offsetHeight;
+            if(car.style.marginTop == 400 + "px"){
+                window.clearInterval(intervalID)
+                rotateCounter = 0
+                car.style.rotate = rotateCounter + "deg";
+                var dropMessage = document.getElementById('dropMessage')
+                dropMessage.innerText = "Car Dropped...!!!"
+                carImg.src = "dead.gif"
+                
+                setTimeout(changeImg, 9000)
+            }
+        }
+
+        function changeImg() {
+            carImg.style.rotate = "0deg"
+            rotateCounter = 0
+            var carImg = document.querySelector('img')
+            carImg.src = "dead.gif"
+        }
+
+        function stopCar() {
+            window.clearInterval(intervalID)
+        }
+    </script>
+</body>
+</html>

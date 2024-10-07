@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-group label {
+            width: 100px;
+        }
+
+        .form-group input, .form-group select {
+            flex: none;
+        }
+
+        .address-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .gender-group label, .address-group label {
+            margin-right: 10px;
+        }
+
+        .form-buttons {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h2><u>Registration Form</u></h2>
+    </center>
+    <div class="container" style="display: flex; margin-top: 100px;">
+        <div class="video" style="margin-left: 25%;">
+            <iframe width="450" height="300" src="https://www.youtube.com/embed/TmLIzFwLwc8?si=FvI5AFgIjdMHoJ3l" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="form">
+            <form style="margin-left: 20px;">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="birthdate">Birthdate</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="********">
+                </div>
+
+                <div class="form-group address-group">
+                    <label for="address">Address</label>
+                    <div>
+                        <label for="state">State</label>
+                        <select id="state" name="state">
+                            <option value="">Select State</option>
+                            <option value="state1">Maharashtra</option>
+                            <option value="state2">Karnataka</option>
+                        </select>
+
+                        <label for="district">District</label>
+                        <select id="district" name="district">
+                            <option value="">Select District</option>
+                            <option value="district1">Kolhapur</option>
+                            <option value="district2">Belgavi</option>
+                        </select>
+
+                        <label for="city">City</label>
+                        <select id="city" name="city">
+                            <option value="">Select City</option>
+                            <option value="city1">Ichalkaranji</option>
+                            <option value="city2">Ankali</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group gender-group">
+                    <label for="gender">Gender</label>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="photo">Upload Photo</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Select your course</label>
+                    <select id="course" name="course">
+                        <option value="">Select Course</option>
+                        <option value="course1">CSE</option>
+                        <option value="course2">IT</option>
+                    </select>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

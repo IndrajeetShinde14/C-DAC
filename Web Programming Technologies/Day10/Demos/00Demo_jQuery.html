@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <style>
+      td {
+        margin: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <br /><br />
+      <table border="1" style="border-collapse: collapse; border: 1px solid black;">
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+        <tr>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+          <td>sunbeam cdac karad</td>
+        </tr>
+      </table>
+    </center>
+    <script>
+      $("tr").mouseover(function () {
+        $(this).css("background-color", "rgb(0,249,255)");
+      });
+
+      $("tr").mouseout(function () {
+        $(this).css("background-color", "white");
+      });
+
+      $("tr").click(function () {
+        $(this).css("background-color", "rgb(181,129,254)");
+        $(this).unbind("mouseover mouseout");
+      });
+    </script>
+  </body>
+</html>
