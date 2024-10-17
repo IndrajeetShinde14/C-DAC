@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\CDAC\Practice\Java\Git Data\Day03\.metadata\.plugins\org.eclipse.jdt.core
+3207642601.index
+3359083903.index
+1448286428.index
+559163466.index
+1991739143.index
+1865797976.index
+3093133808.index
