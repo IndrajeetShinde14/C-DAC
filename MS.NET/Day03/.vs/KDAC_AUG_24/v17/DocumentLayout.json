@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2B1198-3F8B-4CCF-B5A5-F6467E6DE48E}|05DemoOOP\\05DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\05demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2B1198-3F8B-4CCF-B5A5-F6467E6DE48E}|05DemoOOP\\05DemoOOP.csproj|solutionrelative:05demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05408F2C-ACF6-40E8-A158-B8D76BEEC23B}|04DemoOOP\\04DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\04demooop\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{05408F2C-ACF6-40E8-A158-B8D76BEEC23B}|04DemoOOP\\04DemoOOP.csproj|solutionrelative:04demooop\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05408F2C-ACF6-40E8-A158-B8D76BEEC23B}|04DemoOOP\\04DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\04demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05408F2C-ACF6-40E8-A158-B8D76BEEC23B}|04DemoOOP\\04DemoOOP.csproj|solutionrelative:04demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D52650-A934-46B9-83F2-1361C8D05CE6}|03DemoOOP\\03DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\03demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D52650-A934-46B9-83F2-1361C8D05CE6}|03DemoOOP\\03DemoOOP.csproj|solutionrelative:03demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB8CC78-46B6-435E-89E2-9BA0F660C347}|02DemoOOP\\02DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\02demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB8CC78-46B6-435E-89E2-9BA0F660C347}|02DemoOOP\\02DemoOOP.csproj|solutionrelative:02demooop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB8CC78-46B6-435E-89E2-9BA0F660C347}|02DemoOOP\\02DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\02demooop\\reportfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB8CC78-46B6-435E-89E2-9BA0F660C347}|02DemoOOP\\02DemoOOP.csproj|solutionrelative:02demooop\\reportfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB8CC78-46B6-435E-89E2-9BA0F660C347}|02DemoOOP\\02DemoOOP.csproj|f:\\training\\batches\\0. august 2024\\assignments\\kdac\\ms.net\\day03\\02demooop\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB8CC78-46B6-435E-89E2-9BA0F660C347}|02DemoOOP\\02DemoOOP.csproj|solutionrelative:02demooop\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\05DemoOOP\\Program.cs",
+              "RelativeDocumentMoniker": "05DemoOOP\\Program.cs",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\05DemoOOP\\Program.cs*",
+              "RelativeToolTip": "05DemoOOP\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:10:34.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\04DemoOOP\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "04DemoOOP\\ClassDiagram1.cd",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\04DemoOOP\\ClassDiagram1.cd",
+              "RelativeToolTip": "04DemoOOP\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-12-28T11:40:58.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\04DemoOOP\\Program.cs",
+              "RelativeDocumentMoniker": "04DemoOOP\\Program.cs",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\04DemoOOP\\Program.cs*",
+              "RelativeToolTip": "04DemoOOP\\Program.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T11:05:21.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\03DemoOOP\\Program.cs",
+              "RelativeDocumentMoniker": "03DemoOOP\\Program.cs",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\03DemoOOP\\Program.cs",
+              "RelativeToolTip": "03DemoOOP\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:56:40.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportFactory.cs",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\02DemoOOP\\ReportFactory.cs",
+              "RelativeDocumentMoniker": "02DemoOOP\\ReportFactory.cs",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\02DemoOOP\\ReportFactory.cs",
+              "RelativeToolTip": "02DemoOOP\\ReportFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:56:36.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\02DemoOOP\\Logger.cs",
+              "RelativeDocumentMoniker": "02DemoOOP\\Logger.cs",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\02DemoOOP\\Logger.cs",
+              "RelativeToolTip": "02DemoOOP\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:56:15.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\02DemoOOP\\Program.cs",
+              "RelativeDocumentMoniker": "02DemoOOP\\Program.cs",
+              "ToolTip": "F:\\Training\\Batches\\0. August 2024\\Assignments\\Kdac\\ms.net\\Day03\\02DemoOOP\\Program.cs*",
+              "RelativeToolTip": "02DemoOOP\\Program.cs*",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAN0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:31:07.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
