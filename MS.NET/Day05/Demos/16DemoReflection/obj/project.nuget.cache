@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "NZGjdQ+Q41w=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\INDRAJEET\\Desktop\\SunBeam Git Data\\ms.net\\Day05\\Demos\\16DemoReflection\\16DemoReflection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INDRAJEET\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\INDRAJEET\\Desktop\\SunBeam Git Data\\ms.net\\Day05\\Demos\\ORMAttributes\\ORMAttributes.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\INDRAJEET\\Desktop\\SunBeam Git Data\\ms.net\\Day05\\Demos\\ORMAttributes\\ORMAttributes.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

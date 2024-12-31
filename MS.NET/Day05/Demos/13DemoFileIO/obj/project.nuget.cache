@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7RW54gki83Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\INDRAJEET\\Desktop\\SunBeam Git Data\\ms.net\\Day05\\Demos\\13DemoFileIO\\13DemoFileIO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INDRAJEET\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
